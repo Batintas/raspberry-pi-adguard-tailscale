@@ -21,6 +21,8 @@ The system is designed to let selected devices use the Raspberry Pi's DNS filter
 
 ## System Architecture
 
+![Raspberry Pi 5 Network Architecture](./network-architecture.png)
+
 ```text
 Selected Client Devices
           |
