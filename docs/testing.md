@@ -43,7 +43,7 @@ This confirms that the configured filtering rules block this domain.
 Command:
 
 ```cmd
-tailscale ping 100.125.230.62
+tailscale ping <PI_TAILSCALE_IP>
 ```
 
 **Observed result:** The Raspberry Pi responded successfully with a reported latency of approximately 7 ms during the test.
