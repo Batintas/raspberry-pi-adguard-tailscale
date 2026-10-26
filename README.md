@@ -23,19 +23,6 @@ The system is designed to let selected devices use the Raspberry Pi's DNS filter
 
 ![Raspberry Pi 5 Network Architecture](./network-architecture.png)
 
-```text
-Selected Client Devices
-          |
-       Tailscale
-          |
-    Raspberry Pi 5
-          |
-     AdGuard Home
-          |
-   DNS-over-HTTPS
-          |
-       Quad9 DNS
-```
 
 The home router uses Quad9 DNS directly. This keeps ordinary home internet access independent of the Raspberry Pi.
 
